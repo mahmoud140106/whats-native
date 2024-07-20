@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "whats",
-    "slug": "whats",
+    "slug": "clone",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,10 +21,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.mahmoud140.clone"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e4a40ee7-19c0-4034-9a50-6a4922bb71bb"
+      }
+    },
+    "owner": "mahmoud140"
   }
 }
